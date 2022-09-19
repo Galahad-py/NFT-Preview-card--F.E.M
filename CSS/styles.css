@@ -1,0 +1,107 @@
+body{
+    background-color: hsl(217, 54%, 11%);
+    margin: 0;
+    padding: 50px;
+    font-family: 'Outfit', sans-serif;
+    color: hsl(215, 51%, 70%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+/*********main container section**********/
+
+/*********middle container section**********/
+.middle-container{
+    background-color: hsl(216, 50%, 16%);
+    margin: auto;
+    max-width: fit-content;
+    border-radius: 15px;
+    padding: 30px;
+}
+
+
+/*********image container section**********/
+.image-container{
+    position: relative;
+}
+.eth-image{
+    max-width: 300px;
+    border-radius: 10px;
+}
+.overlay{
+    background-color: hsl(178, 100%, 50%);
+    height: 300px;
+    width: 300px;
+    position: absolute;
+    border-radius: 10px;
+    top: 0;
+    opacity: 0;
+}
+.overlay:hover{
+    opacity: 0.5;
+}
+#eyecon{
+    padding-top: 130px;
+}
+.flick:hover{
+    color: hsl(178, 100%, 50%);
+}
+/*********text container section**********/
+.text-container{
+    text-align: left;
+    margin: auto;
+    max-width: 300px;
+    font-size: 18px;
+}
+#first-p{
+    margin-bottom: 8px;
+}
+h3{
+    font-weight: normal;
+    color: white;
+}
+h4{
+    display: flex;
+    align-items: center;
+    font-weight: normal;
+    margin-bottom: 0;
+}
+.eth-class{
+    display: flex;
+    justify-content: space-between;
+}
+#eth-icon{
+    width: 9px;
+    padding-right: 3px;
+}
+#clock-icon{
+    width: 15px;
+    padding-right: 3px;
+}
+.extras{
+    font-size: 18px;
+}
+.first{
+    color: hsl(178, 100%, 50%);
+}
+hr{
+    border-style: none;
+    border-top-style: solid;
+    border-top-color: hsl(215, 32%, 27%);
+}
+.jules{
+    color: white;
+}
+.avatar{
+    color: white;
+    max-width: 10%;
+    border-radius: 100%;
+    border: 2px solid;
+    margin-right: 10px;
+}
+
+/*********attribution section**********/
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
